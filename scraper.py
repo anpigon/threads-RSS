@@ -82,16 +82,16 @@ def scrape_thread(url: str) -> dict:
 if __name__ == "__main__":
     #print(scrape_thread("https://www.threads.net/t/CuVdfsNtmvh/"))
     scraped = scrape_thread("https://www.threads.net/@craigmod")
-    print(scraped)
-    print("\nTHREAD\n")
-    print(scraped["thread"])
+    # print(scraped)
+    # print("\nTHREAD\n")
+    # print(scraped["thread"])
 
+    items_ = []
+    userName = scraped["thread"]["username"]
+    for r in scraped["replies"]:
+        item = rfeed.Item(title=r["text"], link=r["url"], description=["text"])
+        items_.append(item)
+    feed = rfeed.Feed(title=userName + " on Threads", description="Threads via RSS", language="en", items=items_, link="https://www.threads.net/@craigmod")
+    rss = feed.rss()
 
-
-items_ = []
-userName = scraped["thread"]["username"]
-for r in scraped["replies"]:
-    item = rfeed.Item(title=r["text"], link=r["url"], description=["text"])
-    items_.append(item)
-feed = rfeed.Feed(title=" on Threads", description="Threads via RSS", language="en", items=items_, link="https://www.threads.net/@craigmod")
-rss = feed.rss()
+    print(rss)
