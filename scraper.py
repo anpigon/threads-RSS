@@ -93,5 +93,5 @@ userName = scraped["thread"]["username"]
 for r in scraped["replies"]:
     item = rfeed.Item(title=r["text"], link=r["url"], description=["text"])
     items_.append(item)
-feed = rfeed.Feed(title=userName+" on Threads", description="Threads via RSS", language="en", items="items_", link="https://www.threads.net/@craigmod")
+feed = rfeed.Feed(title=" on Threads", description="Threads via RSS", language="en", items=items_, link="https://www.threads.net/@craigmod")
 rss = feed.rss()
