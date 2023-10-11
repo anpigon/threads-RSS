@@ -6,6 +6,7 @@ from parsel import Selector
 from nested_lookup import nested_lookup
 from playwright.sync_api import sync_playwright
 import rfeed
+import sys
 
 
 def parse_thread(data: Dict) -> Dict:
@@ -81,7 +82,11 @@ def scrape_thread(url: str) -> dict:
 
 if __name__ == "__main__":
     #print(scrape_thread("https://www.threads.net/t/CuVdfsNtmvh/"))
-    scraped = scrape_thread("https://www.threads.net/@craigmod")
+    if(len(sys.argv)>= 2):
+        url = sys.argv[1]
+    else:
+        url = "https://www.threads.net/@craigmod"
+    scraped = scrape_thread(url)
     # print(scraped)
     # print("\nTHREAD\n")
     # print(scraped["thread"])
@@ -89,9 +94,18 @@ if __name__ == "__main__":
     items_ = []
     userName = scraped["thread"]["username"]
     for r in scraped["replies"]:
-        item = rfeed.Item(title=r["text"], link=r["url"], description=["text"])
+        item = rfeed.Item(title=r["text"], link=r["url"], description=r["text"])
         items_.append(item)
     feed = rfeed.Feed(title=userName + " on Threads", description="Threads via RSS", language="en", items=items_, link="https://www.threads.net/@craigmod")
     rss = feed.rss()
 
-    print(rss)
+    # Write feed to file if an output file name is given as an argument
+    # Otherwise just print the RSS feed to stdout
+    if(len(sys.argv)>=3):
+        print(sys.argv[2])
+        # write output file
+        outfile = open(sys.argv[2], "w")
+        outfile.write(rss)
+        outfile.close()
+    else:
+        print(rss)
