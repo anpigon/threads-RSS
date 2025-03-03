@@ -10,13 +10,13 @@ RUN apt-get update && apt-get install -y \
     cron \
     && rm -rf /var/lib/apt/lists/*
 
-# Playwright 브라우저 의존성 설치
-RUN playwright install chromium
-RUN playwright install-deps
-
 # 필요한 Python 패키지 설치
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Playwright 브라우저 의존성 설치
+RUN python -m playwright install chromium
+RUN python -m playwright install-deps
 
 # 볼륨 마운트를 위한 디렉토리 생성
 RUN mkdir -p /app/output
