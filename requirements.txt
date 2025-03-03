@@ -1,0 +1,6 @@
+jmespath
+parsel
+nested_lookup
+playwright
+rfeed
+python-dotenv

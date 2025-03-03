@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  threads-rss:
+    build: .
+    container_name: threads-rss-container
+    volumes:
+      - ${OUTPUT_PATH}:/app/output
+    env_file:
+      - .env
+    restart: unless-stopped
