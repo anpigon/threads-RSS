@@ -65,7 +65,7 @@ jobs:
     #     shot-scraper install
     - name: Run the scraper
       run: |
-        python script.py "$URL" rss.xml
+        python scraper.py "$URL" rss.xml
       env:
         URL: ${{ secrets.URL }}
     - name: Deploy to GitHub Pages
