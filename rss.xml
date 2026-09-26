@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>choi.openai on Threads</title><link>https://www.threads.net/@craigmod</link><description>Threads via RSS</description><language>en</language><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>블로그 :
+https://exa.ai/blog/exa-agent-ultra</title><link>https://www.threads.net/@choi.openai/post/DdwvLkokgVL</link><description>블로그 :
+https://exa.ai/blog/exa-agent-ultra</description></item><item><title>Jev보다 성능은 18% 높이고 비용은 절반으로 낮췄다는 새로운 분류 모델 Span-01이 공개됐습니다.
+
+레스판이 공개한 Span-01은 AI의 행동을 빠르게 판단하는 모델입니다.
+프롬프트 인젝션, 환각, 비밀정보 노출, 에이전트 반복 행동, 도구 오사용 등을 감지하며 도구 결과에 숨겨진 Markdown·Base64 공격도 찾아낼 수 있다고 합니다.
+
+레스판 자체 Behavior Benchmark에서는 GPT-6 Luna보다 4% 높은 성능을 기록하면서 입력 100만 토큰당 $0.02로 비용은 최대 700배 낮다고 밝혔습니다.
+
+무료 버전인 Span-01 Lite도 제공되며, 회사 측 평가에서는 Jev보다 높은 성능을 기록했습니다.</title><link>https://www.threads.net/@choi.openai/post/Ddwk2YzgjV1</link><description>Jev보다 성능은 18% 높이고 비용은 절반으로 낮췄다는 새로운 분류 모델 Span-01이 공개됐습니다.
+
+레스판이 공개한 Span-01은 AI의 행동을 빠르게 판단하는 모델입니다.
+프롬프트 인젝션, 환각, 비밀정보 노출, 에이전트 반복 행동, 도구 오사용 등을 감지하며 도구 결과에 숨겨진 Markdown·Base64 공격도 찾아낼 수 있다고 합니다.
+
+레스판 자체 Behavior Benchmark에서는 GPT-6 Luna보다 4% 높은 성능을 기록하면서 입력 100만 토큰당 $0.02로 비용은 최대 700배 낮다고 밝혔습니다.
+
+무료 버전인 Span-01 Lite도 제공되며, 회사 측 평가에서는 Jev보다 높은 성능을 기록했습니다.</description></item><item><title>주소 :
+https://www.respan.ai/blog/introducing-span-1</title><link>https://www.threads.net/@choi.openai/post/Ddwk5A8AtXM</link><description>주소 :
+https://www.respan.ai/blog/introducing-span-1</description></item><item><title>Claude가 미국 국방 공급망에서 제외되는 조치가 항소심에서도 유지됐습니다.
+
+미 연방 D.C. 순회항소법원은 2대1로 앤트로픽의 주장을 받아들이지 않았습니다.
+국방부는 Claude에 내장된 제한 때문에 정부가 요청한 일부 작업이 거부됐고, 군사 작전에서 필요한 기능을 수행하지 못할 위험이 있다고 판단했습니다.
+
+다만 “Claude 자체가 국가안보 위협”이라고 단정한 판결은 아닙니다.
+법원은 Claude의 국방 시스템 통합이 법률상 ‘공급망 위험’에 해당할 수 있다고 본 것입니다.
+
+앤트로픽의 IPO 가능성이 계속 거론되는 상황에서, 이번 판결이 향후 정부 계약이나 기업가치 평가에 어떤 영향을 줄지도 지켜봐야 할 부분입니다.</title><link>https://www.threads.net/@choi.openai/post/DdwaheaEZmE</link><description>Claude가 미국 국방 공급망에서 제외되는 조치가 항소심에서도 유지됐습니다.
+
+미 연방 D.C. 순회항소법원은 2대1로 앤트로픽의 주장을 받아들이지 않았습니다.
+국방부는 Claude에 내장된 제한 때문에 정부가 요청한 일부 작업이 거부됐고, 군사 작전에서 필요한 기능을 수행하지 못할 위험이 있다고 판단했습니다.
+
+다만 “Claude 자체가 국가안보 위협”이라고 단정한 판결은 아닙니다.
+법원은 Claude의 국방 시스템 통합이 법률상 ‘공급망 위험’에 해당할 수 있다고 본 것입니다.
+
+앤트로픽의 IPO 가능성이 계속 거론되는 상황에서, 이번 판결이 향후 정부 계약이나 기업가치 평가에 어떤 영향을 줄지도 지켜봐야 할 부분입니다.</description></item><item><title>구글 Antigravity 2.0에 작업부터 시작하지 않고 먼저 계획을 세우는 Plan Mode가 추가됐습니다.
+
+`/plan`을 입력하면 AI 에이전트가 바로 코드를 수정하는 대신, 요청한 작업을 먼저 분석하고 필요한 자료를 조사한 뒤 구현 계획을 작성합니다.
+
+작성된 계획은 사용자가 먼저 검토할 수 있으며, 승인을 받아야 실제 작업을 시작합니다.
+
+간단한 작업은 프롬프트에서 계획을 세워달라고 요청해 가벼운 버전으로 사용할 수도 있습니다.</title><link>https://www.threads.net/@choi.openai/post/DdwQQfjE-0r</link><description>구글 Antigravity 2.0에 작업부터 시작하지 않고 먼저 계획을 세우는 Plan Mode가 추가됐습니다.
+
+`/plan`을 입력하면 AI 에이전트가 바로 코드를 수정하는 대신, 요청한 작업을 먼저 분석하고 필요한 자료를 조사한 뒤 구현 계획을 작성합니다.
+
+작성된 계획은 사용자가 먼저 검토할 수 있으며, 승인을 받아야 실제 작업을 시작합니다.
+
+간단한 작업은 프롬프트에서 계획을 세워달라고 요청해 가벼운 버전으로 사용할 수도 있습니다.</description></item><item><title>상세내용 :
+https://antigravity.google/docs/plan</title><link>https://www.threads.net/@choi.openai/post/DdwQSDLk0BR</link><description>상세내용 :
+https://antigravity.google/docs/plan</description></item></channel></rss>
