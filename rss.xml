@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>choi.openai on Threads</title><link>https://www.threads.net/@craigmod</link><description>Threads via RSS</description><language>en</language><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>1/ 이번 주 AI 업계에서 가장 중요한 발표는 비영리 평가기관 METR이 공개한 보고서일겁니다.
+
+METR 직원들은 8월부터 11주 동안 앤트로픽 회사 기기로 공개되지 않은 내부 모델의 점수와 학습 지표를 들여다보고, 핵심 연구자 약 15명을 인터뷰했습니다.
+
+결론은 AI가 AI 개발을 직접 끌어올리면서 앤트로픽의 발전 속도가 약 두 배가 됐다는 것입니다.
+
+AI 회사 안의 개발 속도를 외부 기관이 들어가 숫자로 확인한 첫 사례인데, 대부분의 사람들은 이 문장이 무엇을 뜻하는지 모른 채 지나가고 있습니다.</title><link>https://www.threads.net/@choi.openai/post/DfZ1ypRD0L0</link><description>1/ 이번 주 AI 업계에서 가장 중요한 발표는 비영리 평가기관 METR이 공개한 보고서일겁니다.
+
+METR 직원들은 8월부터 11주 동안 앤트로픽 회사 기기로 공개되지 않은 내부 모델의 점수와 학습 지표를 들여다보고, 핵심 연구자 약 15명을 인터뷰했습니다.
+
+결론은 AI가 AI 개발을 직접 끌어올리면서 앤트로픽의 발전 속도가 약 두 배가 됐다는 것입니다.
+
+AI 회사 안의 개발 속도를 외부 기관이 들어가 숫자로 확인한 첫 사례인데, 대부분의 사람들은 이 문장이 무엇을 뜻하는지 모른 채 지나가고 있습니다.</description></item><item><title>2/ 이 결론을 가볍게 넘기기 어려운 이유는 말한 쪽이 METR이기 때문입니다.
+
+작년 7월 소개한 METR 실험에서 숙련 개발자들은 AI 덕분에 20% 빨라졌다고 느꼈지만, 실제로는 19% 느려졌습니다.
+
+AI 과대평가를 가장 경계해 온 기관인데요.
+그 METR이 올해 2월 같은 실험을 다시 하다 설계를 바꾸겠다고 발표했습니다.
+
+개발자 30%에서 50%가 AI 없이 하기 싫은 과제는 아예 제출하지 않았기 때문입니다.
+
+5월에 소개했듯 Mythos Preview는 사람 기준 16시간 넘는 일을 혼자 끝내 METR의 측정 상한에 닿았습니다.
+
+그런 METR도 이번 조사의 출발점은 회의적이었고, 내부 자료를 본 뒤 판단을 바꿨습니다.</title><link>https://www.threads.net/@choi.openai/post/DfZ1zekDygC</link><description>2/ 이 결론을 가볍게 넘기기 어려운 이유는 말한 쪽이 METR이기 때문입니다.
+
+작년 7월 소개한 METR 실험에서 숙련 개발자들은 AI 덕분에 20% 빨라졌다고 느꼈지만, 실제로는 19% 느려졌습니다.
+
+AI 과대평가를 가장 경계해 온 기관인데요.
+그 METR이 올해 2월 같은 실험을 다시 하다 설계를 바꾸겠다고 발표했습니다.
+
+개발자 30%에서 50%가 AI 없이 하기 싫은 과제는 아예 제출하지 않았기 때문입니다.
+
+5월에 소개했듯 Mythos Preview는 사람 기준 16시간 넘는 일을 혼자 끝내 METR의 측정 상한에 닿았습니다.
+
+그런 METR도 이번 조사의 출발점은 회의적이었고, 내부 자료를 본 뒤 판단을 바꿨습니다.</description></item><item><title>3/ 숫자로 보면 이렇습니다.
+
+METR은 여러 벤치마크를 하나로 묶은 앤트로픽판 종합 능력 지수 AECI로 추세를 그렸는데, 2025년 10월 7일을 경계로 1년에 약 15점씩 오르던 점수가 약 29점씩 오르기 시작했습니다.
+
+가속 배율은 1.9배(95% 신뢰구간 1.5배에서 2.8배)입니다.
+METR은 이를 2023년 10월부터 2025년 10월까지, 대략 Claude 2.1에서 Sonnet 4.5까지 간 거리를 지난 1년 만에 다시 갔다고 설명했는데요.
+
+그 2년의 크기는 이렇습니다.
+2023년 실제 깃허브 이슈를 고치는 SWE-bench에서 당시 최고였던 Claude 2가 푼 비율은 1.96%였고, Sonnet 4.5는 검증판 SWE-bench Verified에서 77.2%를 풀었습니다.
+
+버그 50개 중 1개를 고치던 AI가 4개 중 3개를 고치게 된 2년이, 이제 1년 안에 일어나고 있습니다.</title><link>https://www.threads.net/@choi.openai/post/DfZ10Usjw3r</link><description>3/ 숫자로 보면 이렇습니다.
+
+METR은 여러 벤치마크를 하나로 묶은 앤트로픽판 종합 능력 지수 AECI로 추세를 그렸는데, 2025년 10월 7일을 경계로 1년에 약 15점씩 오르던 점수가 약 29점씩 오르기 시작했습니다.
+
+가속 배율은 1.9배(95% 신뢰구간 1.5배에서 2.8배)입니다.
+METR은 이를 2023년 10월부터 2025년 10월까지, 대략 Claude 2.1에서 Sonnet 4.5까지 간 거리를 지난 1년 만에 다시 갔다고 설명했는데요.
+
+그 2년의 크기는 이렇습니다.
+2023년 실제 깃허브 이슈를 고치는 SWE-bench에서 당시 최고였던 Claude 2가 푼 비율은 1.96%였고, Sonnet 4.5는 검증판 SWE-bench Verified에서 77.2%를 풀었습니다.
+
+버그 50개 중 1개를 고치던 AI가 4개 중 3개를 고치게 된 2년이, 이제 1년 안에 일어나고 있습니다.</description></item><item><title>제프 딘(Jeff Dean)은 프론티어 AI 모델 개발과 거대 엔지니어링의 패러다임이 바뀔 것이라 전망했습니다.
+
+그는 기존의 대규모 연구 개발 방식이 인간의 수동 작업과 "심각한 조율 비용(coordination overhead)"에 묶여 있다고 지적했습니다.
+거대한 문제를 잘게 쪼개는 구조 분해가 어렵고 초기 결정을 유연하게 바꾸기도 힘들기 때문입니다.
+
+하지만 적절한 자동화 인프라가 갖춰진다면, 소수의 전문 연구원만으로도 수만 개의 실험을 자율적으로 돌려 복잡한 문제를 해결할 수 있다고 강조했습니다.
+
+강화학습과 진화 알고리즘 기반의 자동화 의사결정이 도입되면 이전 실험이 다음 실험으로 즉각 피드백되며, “소수의 도메인 전문가가 극도로 거대하고 영향력 있는 문제들을 직접 해결하는 시대”가 올 것이라고 밝혔습니다.</title><link>https://www.threads.net/@choi.openai/post/DfcuMyEimkQ</link><description>제프 딘(Jeff Dean)은 프론티어 AI 모델 개발과 거대 엔지니어링의 패러다임이 바뀔 것이라 전망했습니다.
+
+그는 기존의 대규모 연구 개발 방식이 인간의 수동 작업과 "심각한 조율 비용(coordination overhead)"에 묶여 있다고 지적했습니다.
+거대한 문제를 잘게 쪼개는 구조 분해가 어렵고 초기 결정을 유연하게 바꾸기도 힘들기 때문입니다.
+
+하지만 적절한 자동화 인프라가 갖춰진다면, 소수의 전문 연구원만으로도 수만 개의 실험을 자율적으로 돌려 복잡한 문제를 해결할 수 있다고 강조했습니다.
+
+강화학습과 진화 알고리즘 기반의 자동화 의사결정이 도입되면 이전 실험이 다음 실험으로 즉각 피드백되며, “소수의 도메인 전문가가 극도로 거대하고 영향력 있는 문제들을 직접 해결하는 시대”가 올 것이라고 밝혔습니다.</description></item><item><title>풀영상 :
+https://www.youtube.com/watch?v=ooGKNwJWdb8</title><link>https://www.threads.net/@choi.openai/post/DfcuO9ICmjE</link><description>풀영상 :
+https://www.youtube.com/watch?v=ooGKNwJWdb8</description></item><item><title>독일 노동시장·직업연구소(IAB)의 엔초 베버(Enzo Weber) 교수는 “오늘날 우리가 아는 일자리는 청년 세대에게 더 이상 존재하지 않을 것”이라고 진단했습니다.
+
+이제 청년들은 기관사 같은 고전적 직업 대신 “AI로부터 안전한 직업(KI-sichere Job)”을 찾고 있지만, 과거 10년의 기준에 머물러선 안 되며 다가올 10년의 새로운 일자리를 대비해야 한다고 짚었습니다.
+
+그는 IAB 연구 결과를 인용하며 AI 성능 고도화로 150만 개의 일자리가 사라지겠지만, 생산성 증대와 새로운 비즈니스 모델 투자로 150만 개의 새로운 일자리가 상쇄 창출될 것이라고 분석했습니다.
+
+다만 이번 변화의 핵심이자 “진짜 무서운 점은 AI가 이제 고숙련·전문직 업무를 직접 대체하기 시작했다는 사실”이라며 지식 노동 생태계의 전면적 재편을 경고했습니다.</title><link>https://www.threads.net/@choi.openai/post/Dfcj7NAEsd8</link><description>독일 노동시장·직업연구소(IAB)의 엔초 베버(Enzo Weber) 교수는 “오늘날 우리가 아는 일자리는 청년 세대에게 더 이상 존재하지 않을 것”이라고 진단했습니다.
+
+이제 청년들은 기관사 같은 고전적 직업 대신 “AI로부터 안전한 직업(KI-sichere Job)”을 찾고 있지만, 과거 10년의 기준에 머물러선 안 되며 다가올 10년의 새로운 일자리를 대비해야 한다고 짚었습니다.
+
+그는 IAB 연구 결과를 인용하며 AI 성능 고도화로 150만 개의 일자리가 사라지겠지만, 생산성 증대와 새로운 비즈니스 모델 투자로 150만 개의 새로운 일자리가 상쇄 창출될 것이라고 분석했습니다.
+
+다만 이번 변화의 핵심이자 “진짜 무서운 점은 AI가 이제 고숙련·전문직 업무를 직접 대체하기 시작했다는 사실”이라며 지식 노동 생태계의 전면적 재편을 경고했습니다.</description></item><item><title>풀영상 :
+https://www.youtube.com/watch?v=vxVV4cWHMdY</title><link>https://www.threads.net/@choi.openai/post/Dfcj8irkh-Z</link><description>풀영상 :
+https://www.youtube.com/watch?v=vxVV4cWHMdY</description></item><item><title>중국 Ant Group이 Claude Opus 5를 일부 평가에서 앞섰다는 AI 모델 Ling-3.2-flash를 발표했습니다.
+
+전체 5,600억 개 매개변수 중 작업마다 250억 개만 활성화하는 멀티모달 모델인데요.
+
+공개 시연에서는 이미지 한 장으로 3D 게임 자산을 만들고, Blender를 조작하거나 재무 자료를 보고서·발표 자료·영상으로 변환합니다.
+
+OmniDocBench1.5에서 92.21점을 기록해 Opus 5의 90.56점을 넘었다고 합니다.</title><link>https://www.threads.net/@choi.openai/post/DfcdFAKDc5M</link><description>중국 Ant Group이 Claude Opus 5를 일부 평가에서 앞섰다는 AI 모델 Ling-3.2-flash를 발표했습니다.
+
+전체 5,600억 개 매개변수 중 작업마다 250억 개만 활성화하는 멀티모달 모델인데요.
+
+공개 시연에서는 이미지 한 장으로 3D 게임 자산을 만들고, Blender를 조작하거나 재무 자료를 보고서·발표 자료·영상으로 변환합니다.
+
+OmniDocBench1.5에서 92.21점을 기록해 Opus 5의 90.56점을 넘었다고 합니다.</description></item></channel></rss>
