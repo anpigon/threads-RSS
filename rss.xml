@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>choi.openai on Threads</title><link>https://www.threads.net/@craigmod</link><description>Threads via RSS</description><language>en</language><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>이제 Claude Code의 화면 디자인도 AI에게 말로 요청하면 바꿀 수 있습니다.
+
+앤트로픽이 데스크톱용 Claude Code에 사용자 지정 테마 기능을 추가했는데요.
+
+원하는 색상이나 분위기를 설명하면 Claude가 직접 테마를 만들어줍니다. 움직이는 배경도 넣을 수 있습니다.
+
+`theme-examples` 플러그인으로 기존 디자인을 활용하는 것도 가능합니다.
+
+현재 데스크톱 앱의 로컬 작업에서 사용할 수 있으며, 클라우드 작업도 추후 지원할 예정입니다.</title><link>https://www.threads.net/@choi.openai/post/DftnvPEDz-F</link><description>이제 Claude Code의 화면 디자인도 AI에게 말로 요청하면 바꿀 수 있습니다.
+
+앤트로픽이 데스크톱용 Claude Code에 사용자 지정 테마 기능을 추가했는데요.
+
+원하는 색상이나 분위기를 설명하면 Claude가 직접 테마를 만들어줍니다. 움직이는 배경도 넣을 수 있습니다.
+
+`theme-examples` 플러그인으로 기존 디자인을 활용하는 것도 가능합니다.
+
+현재 데스크톱 앱의 로컬 작업에서 사용할 수 있으며, 클라우드 작업도 추후 지원할 예정입니다.</description></item><item><title>내용 :
+https://code.claude.com/docs/en/plugins/mods/interface#put-a-backdrop-behind-the-conversation</title><link>https://www.threads.net/@choi.openai/post/Dftnws4j1bl</link><description>내용 :
+https://code.claude.com/docs/en/plugins/mods/interface#put-a-backdrop-behind-the-conversation</description></item><item><title>이제 모두가 AI 에이전트에 지갑을 달기 시작했습니다.
+
+오픈AI가 ChatGPT Wallet을 공개한 데 이어 구글도 Gemini에 Google Wallet을 연결하는 기능을 추가했는데요.
+
+Gemini는 카드와 은행 거래 내역을 분석해 지출 그래프를 만들고, 잊고 있던 구독 서비스나 요금 인상까지 찾아줍니다.
+
+다만, ChatGPT는 사용자 승인 후 실제 결제까지 가능하지만, Gemini는 금융 정보를 조회하고 분석하는 기능만 우선적으로 제공합니다.
+
+앞으로 사생활 침해와 해킹 피해에 대한 우려는 물론, AI 에이전트에 맞춰 기존 금융 시스템을 재설계해야 한다는 논의까지 확산될 것 같습니다.</title><link>https://www.threads.net/@choi.openai/post/DftgzsrDjPb</link><description>이제 모두가 AI 에이전트에 지갑을 달기 시작했습니다.
+
+오픈AI가 ChatGPT Wallet을 공개한 데 이어 구글도 Gemini에 Google Wallet을 연결하는 기능을 추가했는데요.
+
+Gemini는 카드와 은행 거래 내역을 분석해 지출 그래프를 만들고, 잊고 있던 구독 서비스나 요금 인상까지 찾아줍니다.
+
+다만, ChatGPT는 사용자 승인 후 실제 결제까지 가능하지만, Gemini는 금융 정보를 조회하고 분석하는 기능만 우선적으로 제공합니다.
+
+앞으로 사생활 침해와 해킹 피해에 대한 우려는 물론, AI 에이전트에 맞춰 기존 금융 시스템을 재설계해야 한다는 논의까지 확산될 것 같습니다.</description></item><item><title>블로그 :
+https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app</title><link>https://www.threads.net/@choi.openai/post/Dftg0uqDnjK</link><description>블로그 :
+https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app</description></item><item><title>오픈AI가 ChatGPT Wallet을 공개했습니다.
+
+dot에게 쇼핑을 맡기면 상품을 찾고, 사용자 승인을 받아 구매와 결제까지 진행할 수 있습니다.
+실제 카드번호는 AI에 전달되지 않으며, 결제할 때마다 보안 확인을 거칩니다.
+
+American Express, Mastercard, Visa와 협력해 개발했다고 합니다.
+
+앞으로 쇼핑몰은 사람뿐 아니라 AI가 이용하기 편한 구조로 바뀌어야 할지도 모르겠습니다.
+
+현재 미국 Pro 이용자에게 순차적으로 제공됩니다.
+저는 알파 테스터로 오래전부터 사용하고 있는데 정말 1-2년안에 에이전트 커머스에 대한 생태계가 급격하게 성장하게될 것 같습니다.</title><link>https://www.threads.net/@choi.openai/post/DftZ5PEAPeT</link><description>오픈AI가 ChatGPT Wallet을 공개했습니다.
+
+dot에게 쇼핑을 맡기면 상품을 찾고, 사용자 승인을 받아 구매와 결제까지 진행할 수 있습니다.
+실제 카드번호는 AI에 전달되지 않으며, 결제할 때마다 보안 확인을 거칩니다.
+
+American Express, Mastercard, Visa와 협력해 개발했다고 합니다.
+
+앞으로 쇼핑몰은 사람뿐 아니라 AI가 이용하기 편한 구조로 바뀌어야 할지도 모르겠습니다.
+
+현재 미국 Pro 이용자에게 순차적으로 제공됩니다.
+저는 알파 테스터로 오래전부터 사용하고 있는데 정말 1-2년안에 에이전트 커머스에 대한 생태계가 급격하게 성장하게될 것 같습니다.</description></item></channel></rss>
