@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>choi.openai on Threads</title><link>https://www.threads.net/@craigmod</link><description>Threads via RSS</description><language>en</language><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><item><title>1/ Thinking Machines가 11월 20일(현지 시각) 노트북에서 돌아가는 오픈웨이트 모델 Inkling 2 Mini를 공개했습니다.
+
+2주 전 내놓은 5,940억 파라미터 Inkling 2 Small을 두고 크기가 부담스럽다는 반응이 나오자, 공식 계정이 "의견을 들었다"며 내놓은 작은 모델인데요.
+
+전체 264억 파라미터 가운데 토큰마다 34억 개만 쓰는 전문가 혼합(MoE) 모델이고, 가운데 레이어를 세 번 반복하기 때문에 토큰마다 실제로 거치는 가중치는 54억 개입니다.
+
+텍스트와 이미지를 함께 받고 100만 토큰 문맥을 지원하며, 약 20GB 가중치를 Apache 2.0으로 풀었습니다.
+
+연구진은 와이파이 없는 비행기 안에서 맥북 프로로 이 모델을 돌려 몇 분 만에 비행 시뮬레이터를 만들었습니다.</title><link>https://www.threads.net/@choi.openai/post/DgAG4eXj1t8</link><description>1/ Thinking Machines가 11월 20일(현지 시각) 노트북에서 돌아가는 오픈웨이트 모델 Inkling 2 Mini를 공개했습니다.
+
+2주 전 내놓은 5,940억 파라미터 Inkling 2 Small을 두고 크기가 부담스럽다는 반응이 나오자, 공식 계정이 "의견을 들었다"며 내놓은 작은 모델인데요.
+
+전체 264억 파라미터 가운데 토큰마다 34억 개만 쓰는 전문가 혼합(MoE) 모델이고, 가운데 레이어를 세 번 반복하기 때문에 토큰마다 실제로 거치는 가중치는 54억 개입니다.
+
+텍스트와 이미지를 함께 받고 100만 토큰 문맥을 지원하며, 약 20GB 가중치를 Apache 2.0으로 풀었습니다.
+
+연구진은 와이파이 없는 비행기 안에서 맥북 프로로 이 모델을 돌려 몇 분 만에 비행 시뮬레이터를 만들었습니다.</description></item><item><title>2/ 성적은 같은 크기의 중국 모델과 나란히 섰습니다.
+
+독립 평가기관 Artificial Analysis의 지능 지수에서 Inkling 2 Mini는 20.1점으로, 알리바바의 270억 파라미터 모델 Qwen3.8-27B와 같은 점수를 받았는데요.
+
+Qwen3.8-27B는 토큰마다 270억 개를 모두 쓰는 모델이라, 실제 계산에 쓰는 파라미터 5분의 1로 같은 점수를 낸 셈입니다.
+
+실제 저장소의 버그를 고치는 에이전트 코딩 평가 DeepSWE에서는 48.2%로 Qwen3.8-27B의 42.2%를 앞섰고, SWE-bench Verified도 79.2% 대 77.8%였습니다.
+
+회사는 100B 미만 오픈웨이트 모델 가운데 DeepSWE와 Vals Index(46.5%) 모두 1위라고 밝혔습니다.</title><link>https://www.threads.net/@choi.openai/post/DgAG5Twj0Aq</link><description>2/ 성적은 같은 크기의 중국 모델과 나란히 섰습니다.
+
+독립 평가기관 Artificial Analysis의 지능 지수에서 Inkling 2 Mini는 20.1점으로, 알리바바의 270억 파라미터 모델 Qwen3.8-27B와 같은 점수를 받았는데요.
+
+Qwen3.8-27B는 토큰마다 270억 개를 모두 쓰는 모델이라, 실제 계산에 쓰는 파라미터 5분의 1로 같은 점수를 낸 셈입니다.
+
+실제 저장소의 버그를 고치는 에이전트 코딩 평가 DeepSWE에서는 48.2%로 Qwen3.8-27B의 42.2%를 앞섰고, SWE-bench Verified도 79.2% 대 77.8%였습니다.
+
+회사는 100B 미만 오픈웨이트 모델 가운데 DeepSWE와 Vals Index(46.5%) 모두 1위라고 밝혔습니다.</description></item><item><title>3/ 이 모델의 중심은 레이어를 다시 돌리는 루프입니다.
+
+24개 레이어를 6개씩 네 묶음으로 나눈 뒤, 앞 묶음과 마지막 묶음은 한 번만 돌리고 가운데 12개 레이어는 토큰마다 세 번 반복하는데요.
+
+저장된 레이어는 24개지만 토큰 하나가 거치는 레이어는 48개가 되고, 두 번째와 세 번째 바퀴는 앞 바퀴의 결과를 넘겨받아 생각을 이어 갑니다.
+
+Thinking Machines는 처음과 마지막 레이어가 단어와 내부 표현을 오가는 번역을, 가운데 레이어가 추상적인 추론을 맡는다고 보고 가운데를 골랐고, 실제로 28개 평가 중 27개에서 마지막 12개를 반복할 때보다 정확도가 높았습니다.
+
+9월 프린스턴이 공개한 반복 구조 트랜스포머를 정리할 때도 오픈AI GPT-6 Astra가 비슷한 구조를 쓴다는 이야기가 돌았는데, 이번에는 대형 연구소가 가중치째 내놓았습니다.</title><link>https://www.threads.net/@choi.openai/post/DgAG6K5DyMm</link><description>3/ 이 모델의 중심은 레이어를 다시 돌리는 루프입니다.
+
+24개 레이어를 6개씩 네 묶음으로 나눈 뒤, 앞 묶음과 마지막 묶음은 한 번만 돌리고 가운데 12개 레이어는 토큰마다 세 번 반복하는데요.
+
+저장된 레이어는 24개지만 토큰 하나가 거치는 레이어는 48개가 되고, 두 번째와 세 번째 바퀴는 앞 바퀴의 결과를 넘겨받아 생각을 이어 갑니다.
+
+Thinking Machines는 처음과 마지막 레이어가 단어와 내부 표현을 오가는 번역을, 가운데 레이어가 추상적인 추론을 맡는다고 보고 가운데를 골랐고, 실제로 28개 평가 중 27개에서 마지막 12개를 반복할 때보다 정확도가 높았습니다.
+
+9월 프린스턴이 공개한 반복 구조 트랜스포머를 정리할 때도 오픈AI GPT-6 Astra가 비슷한 구조를 쓴다는 이야기가 돌았는데, 이번에는 대형 연구소가 가중치째 내놓았습니다.</description></item><item><title>오늘 수원에서 가장 보람찬 하루를 보낸 사람들</title><link>https://www.threads.net/@choi.openai/post/DgAAVioD65u</link><description>오늘 수원에서 가장 보람찬 하루를 보낸 사람들</description></item><item><title>스페이스X CEO 일론 머스크(Elon Musk)는 우주 발사체 ‘스타십(Starship)’의 완전 재사용 기술이 인류 우주 경제의 판도를 바꿀 근본적인 이정표라고 강조했습니다.
+
+과거 우주왕복선은 핵심 연료 탱크를 매번 폐기하고 재정비에만 약 9개월이 걸려 막대한 비용이 발생했습니다.
+반면 스타십은 비행기처럼 부스터 착륙 즉시 다음 우주선을 올려 재발사할 수 있는 “완전한 재사용과 즉각적인 재운용”을 목표로 설계되었습니다.
+
+머스크는 이 기술이 우주 접근 비용을 기존 대비 “100배, 궁극적으로는 1,000배까지 절감”할 것이라고 분석했습니다.
+
+미국 정부 전체 예산을 쏟아부어도 재정적으로 불가능했던 달과 화성의 도시 건설이 비로소 경제적 타당성을 갖추고, 인류가 다행성 종족으로 도약하는 현실적인 기반이 마련된다는 설명입니다.</title><link>https://www.threads.net/@choi.openai/post/Df_91gUAgpI</link><description>스페이스X CEO 일론 머스크(Elon Musk)는 우주 발사체 ‘스타십(Starship)’의 완전 재사용 기술이 인류 우주 경제의 판도를 바꿀 근본적인 이정표라고 강조했습니다.
+
+과거 우주왕복선은 핵심 연료 탱크를 매번 폐기하고 재정비에만 약 9개월이 걸려 막대한 비용이 발생했습니다.
+반면 스타십은 비행기처럼 부스터 착륙 즉시 다음 우주선을 올려 재발사할 수 있는 “완전한 재사용과 즉각적인 재운용”을 목표로 설계되었습니다.
+
+머스크는 이 기술이 우주 접근 비용을 기존 대비 “100배, 궁극적으로는 1,000배까지 절감”할 것이라고 분석했습니다.
+
+미국 정부 전체 예산을 쏟아부어도 재정적으로 불가능했던 달과 화성의 도시 건설이 비로소 경제적 타당성을 갖추고, 인류가 다행성 종족으로 도약하는 현실적인 기반이 마련된다는 설명입니다.</description></item><item><title>풀영상 :
+https://www.youtube.com/watch?v=DY8clym2-jQ</title><link>https://www.threads.net/@choi.openai/post/Df_94wKAjiH</link><description>풀영상 :
+https://www.youtube.com/watch?v=DY8clym2-jQ</description></item><item><title>일론 머스크는 초대형 자체 반도체 공장 프로젝트인 ‘테라팹(Terafab)’에 대해 “지구상에서 가장 크고 진보한 반도체 제조 시설”이 될 것이라고 밝혔습니다.
+
+최종 1억 제곱피트 규모로 구축될 이 공장은 내년 6월경 연구용 팹에서 첫 테스트 칩을 생산하고, 2028년 말 1단계 대량 양산에 돌입하는 것을 목표로 하고 있습니다.
+초기에는 표준 장비를 쓰되 점차 맞춤형 장비와 자체 제작 설비까지 도입해 공정 혁신을 꾀할 계획입니다.
+
+머스크는 막대한 설비투자(CapEx) 때문에 위험을 회피하는 기존 반도체 기업들과 달리, “우리는 과감히 위험을 감수하고 빠르게 반복 개선해 누구보다 훨씬 효율적인 칩 생산 공정을 구축할 것”이라고 강조하며 반도체 제조 방식의 급격한 진화를 예고했습니다.</title><link>https://www.threads.net/@choi.openai/post/Df_zlzngrS2</link><description>일론 머스크는 초대형 자체 반도체 공장 프로젝트인 ‘테라팹(Terafab)’에 대해 “지구상에서 가장 크고 진보한 반도체 제조 시설”이 될 것이라고 밝혔습니다.
+
+최종 1억 제곱피트 규모로 구축될 이 공장은 내년 6월경 연구용 팹에서 첫 테스트 칩을 생산하고, 2028년 말 1단계 대량 양산에 돌입하는 것을 목표로 하고 있습니다.
+초기에는 표준 장비를 쓰되 점차 맞춤형 장비와 자체 제작 설비까지 도입해 공정 혁신을 꾀할 계획입니다.
+
+머스크는 막대한 설비투자(CapEx) 때문에 위험을 회피하는 기존 반도체 기업들과 달리, “우리는 과감히 위험을 감수하고 빠르게 반복 개선해 누구보다 훨씬 효율적인 칩 생산 공정을 구축할 것”이라고 강조하며 반도체 제조 방식의 급격한 진화를 예고했습니다.</description></item><item><title>풀영상 :
+https://www.youtube.com/watch?v=DY8clym2-jQ</title><link>https://www.threads.net/@choi.openai/post/Df_zpRUArI8</link><description>풀영상 :
+https://www.youtube.com/watch?v=DY8clym2-jQ</description></item></channel></rss>
